@@ -22,7 +22,7 @@ typedef long double ld;
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(0);
-	cout.precision(1);
+	cout.precision(10);
 	cout << fixed;
 
 	return 0;

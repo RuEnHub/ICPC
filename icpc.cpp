@@ -1,29 +1,26 @@
 #include <bits/stdc++.h>
-
-#define forn(i, n) for (int i = 0; i < (int)(n); ++i)
-#define for1(i, n) for (int i = 1; i <= (int)(n); ++i)
-#define fore(i, l, r) for (int i = (int)(l); i <= (int)(r); ++i)
-#define ford(i, n) for (int i = (int)(n) - 1; i >= 0; --i)
-#define pb push_back
-#define fi first
-#define se second
-#define all(x) (x).begin(), (x).end()
-#define rall(x) (x).rbegin(), (x).rend()
-
 using namespace std;
 
-typedef long long i64;
-typedef vector<int> vi;
-typedef vector<i64> vi64;
-typedef vector<vi> vvi;
-typedef vector<vi64> vvi64;
-typedef long double ld;
+#define ll long long
+#define ld long double
+#define ull unsigned ll
+#define x first
+#define y second
+#define all(x) x.begin(), x.end()
 
+#define forn(i, n) for (int i = 0; i < n; i++)
+#define rforn(i, n) for (ll i = n-1; i >= 0; i--)
+#define aforn(v, a) for (auto& v : a)
+const int mod = 1e9 + 7;
+ 
+void solve() {
+       
+} 
+ 
 int main() {
-	ios::sync_with_stdio(0);
-	cin.tie(0);
-	cout.precision(10);
-	cout << fixed;
-
+	ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+	int t = 1;
+	cin >> t;
+	while (t--) solve();
 	return 0;
 }
